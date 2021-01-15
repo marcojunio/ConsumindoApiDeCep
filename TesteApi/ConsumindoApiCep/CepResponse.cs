@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace ConsumindoApiCep
 {
-    class CepResponse
+    public class CepResponse
     {   
         [JsonProperty("cep")]
         public string Cep { get; set; }
